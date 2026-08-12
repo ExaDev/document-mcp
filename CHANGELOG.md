@@ -1,3 +1,23 @@
+## [1.5.50](https://github.com/ExaDev/document-mcp/compare/v1.5.49...v1.5.50) (2026-08-12)
+
+## [1.5.49](https://github.com/ExaDev/document-mcp/compare/v1.5.48...v1.5.49) (2026-08-12)
+
+## [1.5.48](https://github.com/ExaDev/document-mcp/compare/v1.5.47...v1.5.48) (2026-08-12)
+
+## [1.5.47](https://github.com/ExaDev/document-mcp/compare/v1.5.46...v1.5.47) (2026-08-12)
+
+## [1.5.46](https://github.com/ExaDev/document-mcp/compare/v1.5.45...v1.5.46) (2026-08-12)
+
+## [1.5.45](https://github.com/ExaDev/document-mcp/compare/v1.5.44...v1.5.45) (2026-08-12)
+
+## [1.5.44](https://github.com/ExaDev/document-mcp/compare/v1.5.43...v1.5.44) (2026-08-12)
+
+## [1.5.43](https://github.com/ExaDev/document-mcp/compare/v1.5.42...v1.5.43) (2026-08-12)
+
+## [1.5.42](https://github.com/ExaDev/document-mcp/compare/v1.5.41...v1.5.42) (2026-08-12)
+
+## [1.5.41](https://github.com/ExaDev/document-mcp/compare/v1.5.40...v1.5.41) (2026-08-12)
+
 ## [1.5.40](https://github.com/ExaDev/document-mcp/compare/v1.5.39...v1.5.40) (2026-08-12)
 
 ## [1.5.39](https://github.com/ExaDev/document-mcp/compare/v1.5.38...v1.5.39) (2026-08-12)
