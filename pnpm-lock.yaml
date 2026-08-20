@@ -70,8 +70,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       pdf-codec:
-        specifier: ^3.0.4
-        version: 3.0.4
+        specifier: ^3.0.8
+        version: 3.0.8
       publint:
         specifier: ^0.3.22
         version: 0.3.23
@@ -2577,12 +2577,12 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pdf-codec@3.0.4:
-    resolution: {integrity: sha512-EwGetkta3q/LBIu94883mES1uKmlIls8f8Mi0L/03xaV8uR1YftSwxnO00Vg+rWxPeE8TaCdZQVIExAhJtKvPQ==}
-    engines: {node: '>=20'}
-
   pdf-codec@3.0.7:
     resolution: {integrity: sha512-3OKQh+PWLzd68KnC96VGbPcTJU/TWMXIufa18ZmaT7Dtb18LIMK/RrLKeL5WJxqS0oYNC2fcY/+wwPWiZbY6WQ==}
+    engines: {node: '>=20'}
+
+  pdf-codec@3.0.8:
+    resolution: {integrity: sha512-YowQ2z6hLjJqJ3Hl2SNSQWTEPFp3L9FUwZavHYguLYfdnTO8Pr1dWQFuNWF8981GZCr4XUvJcjoY+uiiESet1w==}
     engines: {node: '>=20'}
 
   picocolors@1.1.1:
@@ -5495,14 +5495,14 @@ snapshots:
 
   pathe@2.0.3: {}
 
-  pdf-codec@3.0.4:
+  pdf-codec@3.0.7:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 4.3.0
+      document-schema.js: 4.3.3
       fflate: 0.8.3
       zod: 4.4.3
 
-  pdf-codec@3.0.7:
+  pdf-codec@3.0.8:
     dependencies:
       byte-codec: 1.1.9
       document-schema.js: 4.3.3
