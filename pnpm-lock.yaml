@@ -15,8 +15,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       documents.js:
-        specifier: ^4.0.13
-        version: 4.0.13
+        specifier: ^4.0.18
+        version: 4.0.18
       zod:
         specifier: ^4.2.0
         version: 4.4.3
@@ -1636,8 +1636,12 @@ packages:
     resolution: {integrity: sha512-Ao6bE/q4JGVy6hOX7UGYBZUsekU6GzI19+t+M6jBpGmPuDEeHM5MXSIxbtty45tsKEYmf0seeLybb2DaLZyxPg==}
     engines: {node: '>=20'}
 
-  documents.js@4.0.13:
-    resolution: {integrity: sha512-tNZoW/j7XJdutmK3cFd+lgmpRYVQqOAzHaVwPJqZNbnvmW/aEEVVWcJDG5u1BLR2/XnTyy6Sq/JaA09ODlErIA==}
+  document-schema.js@4.3.3:
+    resolution: {integrity: sha512-nSxpMVe21hnQstwdlbBeocoYlL8lKfLT0+1XxWrOVTcrJJZsCCaoYdyefqSVVtXcipWdUgK3uhEa5bSiYwAI5w==}
+    engines: {node: '>=20'}
+
+  documents.js@4.0.18:
+    resolution: {integrity: sha512-3xrnHlKEdV6jBWppgWAj7M75UgLUS1y4p88v33hB/nm0dtacAkH5ootGMZ3ZgVuOVLn6hFOHHEJpFxn/M9n0LQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2269,8 +2273,8 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  markdown-codec@4.0.0:
-    resolution: {integrity: sha512-TigksI3/j3b+RG60S4eSTiLKYEArU030yp8bMuNSR7tTRbCP6ZfSs45EH5ZxRiF+laHEIUO2B/lxRjhxivUdUw==}
+  markdown-codec@4.0.6:
+    resolution: {integrity: sha512-PvRTo/GreSr9JDnlCxi/euMeCxc9dkk09PtckoIXmaFgViAPZquMUxFicpB5vOZh/Ad1N9MIwysxQnOIiLC/Vg==}
     engines: {node: '>=20'}
 
   marked-terminal@7.3.0:
@@ -2451,12 +2455,16 @@ packages:
     resolution: {integrity: sha512-IoPvCJ+pOF94R8B18Hgpf7cwzAOPo59b/oNZYHhh8+3gVTYOluuKgdPu0TTvTfd0BLLewquOzQD1mK+SFl1GaA==}
     engines: {node: '>=20'}
 
+  odf.js@5.0.3:
+    resolution: {integrity: sha512-HopdpWrWISU67YgCt9bBp6KP8TQHQi6ObwW3g8PotRvoLhn7/4MqmPw5Xy8V39ys+3PFoPUXWSkU91tHA4EL3w==}
+    engines: {node: '>=20'}
+
   onetime@6.0.0:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  ooxml.js@4.0.6:
-    resolution: {integrity: sha512-sukG8sq6hvW7eZx2lYlYZX4F/ez6o33yMGxcgWIhv2eNOx0fuJJ0BDyyXqzABF2RwhqdT2LNS8Pslnw3mJLyRg==}
+  ooxml.js@4.0.8:
+    resolution: {integrity: sha512-ztRztO18nXfmDIOSZTEVMaQcGkgmoxtIc3Xi+8aoXYWdoqdAfJcyRbAvWpRyGlD6kLZNL+h3P/1GjCxAMVnbvA==}
     engines: {node: '>=20'}
 
   optionator@0.9.4:
@@ -2571,6 +2579,10 @@ packages:
 
   pdf-codec@3.0.4:
     resolution: {integrity: sha512-EwGetkta3q/LBIu94883mES1uKmlIls8f8Mi0L/03xaV8uR1YftSwxnO00Vg+rWxPeE8TaCdZQVIExAhJtKvPQ==}
+    engines: {node: '>=20'}
+
+  pdf-codec@3.0.7:
+    resolution: {integrity: sha512-3OKQh+PWLzd68KnC96VGbPcTJU/TWMXIufa18ZmaT7Dtb18LIMK/RrLKeL5WJxqS0oYNC2fcY/+wwPWiZbY6WQ==}
     engines: {node: '>=20'}
 
   picocolors@1.1.1:
@@ -4629,15 +4641,19 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  documents.js@4.0.13:
+  document-schema.js@4.3.3:
+    dependencies:
+      zod: 4.4.3
+
+  documents.js@4.0.18:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 4.3.0
+      document-schema.js: 4.3.3
       fflate: 0.8.3
-      markdown-codec: 4.0.0
-      odf.js: 5.0.0
-      ooxml.js: 4.0.6
-      pdf-codec: 3.0.4
+      markdown-codec: 4.0.6
+      odf.js: 5.0.3
+      ooxml.js: 4.0.8
+      pdf-codec: 3.0.7
       temml: 0.13.4
       zod: 4.4.3
 
@@ -5245,9 +5261,9 @@ snapshots:
     dependencies:
       semver: 7.8.5
 
-  markdown-codec@4.0.0:
+  markdown-codec@4.0.6:
     dependencies:
-      document-schema.js: 4.3.0
+      document-schema.js: 4.3.3
       zod: 4.4.3
 
   marked-terminal@7.3.0(marked@15.0.12):
@@ -5368,13 +5384,20 @@ snapshots:
       fflate: 0.8.3
       zod: 4.4.3
 
+  odf.js@5.0.3:
+    dependencies:
+      document-schema.js: 4.3.3
+      fast-xml-parser: 5.11.0
+      fflate: 0.8.3
+      zod: 4.4.3
+
   onetime@6.0.0:
     dependencies:
       mimic-fn: 4.0.0
 
-  ooxml.js@4.0.6:
+  ooxml.js@4.0.8:
     dependencies:
-      document-schema.js: 4.3.0
+      document-schema.js: 4.3.3
       fast-xml-parser: 5.11.0
       fflate: 0.8.3
       zod: 4.4.3
@@ -5476,6 +5499,13 @@ snapshots:
     dependencies:
       byte-codec: 1.1.9
       document-schema.js: 4.3.0
+      fflate: 0.8.3
+      zod: 4.4.3
+
+  pdf-codec@3.0.7:
+    dependencies:
+      byte-codec: 1.1.9
+      document-schema.js: 4.3.3
       fflate: 0.8.3
       zod: 4.4.3
 
