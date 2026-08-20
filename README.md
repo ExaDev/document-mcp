@@ -1,5 +1,7 @@
 # document-mcp
 
+> **This repository has moved.** `document-mcp` now lives at [`packages/document-mcp`](https://github.com/ExaDev/documents.js/tree/main/packages/document-mcp) in the [`ExaDev/documents.js`](https://github.com/ExaDev/documents.js) monorepo. This repository is archived and will receive no further commits, releases, issues, or pull requests — file issues and send pull requests against the monorepo instead. The npm package itself is unaffected: `document-mcp` keeps publishing from its new home under the same name.
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ExaDev/document-mcp) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/document-mcp) [![Release](https://img.shields.io/github/v/release/ExaDev/document-mcp)](https://github.com/ExaDev/document-mcp/releases/latest) [![CI](https://img.shields.io/github/actions/workflow/status/ExaDev/document-mcp/ci.yml?branch=main)](https://github.com/ExaDev/document-mcp/actions)
 
 > An MCP (Model Context Protocol) server exposing [`documents.js`](https://github.com/ExaDev/documents.js)'s document-conversion, `.odb`, metadata, and font tooling as MCP tools, so an MCP-speaking agent can convert, inspect, and edit docx/pptx/odt/odp/ods/odg/odf/pdf/odb/xlsx/markdown documents without writing TypeScript against `documents.js` directly.
